@@ -66,7 +66,7 @@ const Header = () => {
                     </div>
                 ) : (
                     <div className='accountLog'>
-                        <div className='profileName'>
+                        <div className='profileName'>  
                             <FontAwesomeIcon icon={faUserCircle} className="icon-sign"></FontAwesomeIcon>
                             {profileFirstName}
                         </div>
